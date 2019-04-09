@@ -25,13 +25,13 @@ public class mirrorColliderScript : MonoBehaviour
             if (Input.GetKey(KeyCode.J))
             {
                 print("left arrow key is held down");
-                mirrorFrame.transform.Rotate(0, 0.3f, 0, Space.Self);
+                mirrorFrame.transform.Rotate(0, 0, 0.5f, Space.Self);
             }
 
             if (Input.GetKey(KeyCode.L))
             {
                 print("right arrow key is held down");
-                mirrorFrame.transform.Rotate(0,-0.3f, 0,Space.Self);
+                mirrorFrame.transform.Rotate(0,0, -0.5f,Space.Self);
 
             }
         }
